@@ -1,12 +1,9 @@
+<a id="top"></a>
 <div align="center">
 
-<img src="assets/logo.svg" width="96" alt="AI MetaWipe logo">
+<h1 align="center"><img src="assets/svg/hero-banner.svg" alt="AI MetaWipe: take control of what's hidden inside your images" width="100%"></h1>
 
-# AI MetaWipe
-
-**Take control of what's hidden inside your images.**
-
-Inspect, clean, edit, optimize and protect your images with a privacy-first toolkit that runs entirely in your browser.
+**Inspect, clean, edit, optimize and protect your images with a privacy-first toolkit that runs entirely in your browser.**
 
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite&logoColor=white)
@@ -16,38 +13,120 @@ Inspect, clean, edit, optimize and protect your images with a privacy-first tool
 ![Tools](https://img.shields.io/badge/tools-12-A78BFA?style=for-the-badge)
 ![Themes](https://img.shields.io/badge/themes-dark%20%26%20light-FBBF24?style=for-the-badge)
 
-[Screenshots](#-screenshots) · [Features](#-features) · [Quick start](#-quick-start) · [AI Agent](#-ai-agent-setup) · [Privacy](#-privacy-and-data-flow) · [Formats](#-supported-formats) · [FAQ](#-faq)
-
+[🖼️ Screenshots](#screenshots) · [🚀 Features](#features) · [⚡ Quick start](#quick-start) · [🤖 AI Agent](#ai-agent-setup) · [🔒 Privacy](#privacy) · [🗂️ Formats](#formats) · [❓ FAQ](#faq)
 
 <a href="assets/screenshots/dashboard-hero-light.png"><img src="assets/screenshots/dashboard-hero-light.png" alt="AI MetaWipe dashboard with the drag and drop area and a metadata illustration" width="100%"></a>
 
 </div>
 
+<p align="center"><img src="assets/svg/divider.svg" alt="" width="100%"></p>
 
----
 
-## 📑 Table of contents
+<a id="contents"></a>
+<h2 align="center"><img src="assets/svg/section-contents.svg" alt="Table of contents" width="100%"></h2>
 
-- [Overview](#-overview)
-- [Screenshots](#-screenshots)
-- [Features](#-features)
-- [Quick start](#-quick-start)
-- [How to use it](#-how-to-use-it)
-- [AI Agent setup](#-ai-agent-setup)
-- [Privacy and data flow](#-privacy-and-data-flow)
-- [Supported formats](#-supported-formats)
-- [Tech stack](#-tech-stack)
-- [Project structure](#-project-structure)
-- [Deployment](#-deployment)
-- [Troubleshooting](#-troubleshooting)
-- [Known limits](#-known-limits)
-- [FAQ](#-faq)
-- [Contributing](#-contributing)
-- [License](#-license)
+<table>
+<tr>
+<td width="33%" valign="top">
 
----
+**✨ [Overview](#overview)**<br><sub>What it does and why</sub>
 
-## ✨ Overview
+</td>
+<td width="33%" valign="top">
+
+**🖼️ [Screenshots](#screenshots)**<br><sub>A tour of every tool</sub>
+
+</td>
+<td width="33%" valign="top">
+
+**🚀 [Features](#features)**<br><sub>Twelve tools at a glance</sub>
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+**⚡ [Quick start](#quick-start)**<br><sub>Install and run</sub>
+
+</td>
+<td width="33%" valign="top">
+
+**🧭 [How to use it](#how-to-use)**<br><sub>Five simple steps</sub>
+
+</td>
+<td width="33%" valign="top">
+
+**🤖 [AI Agent setup](#ai-agent-setup)**<br><sub>The optional assistant</sub>
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+**🔒 [Privacy and data flow](#privacy)**<br><sub>What stays on your device</sub>
+
+</td>
+<td width="33%" valign="top">
+
+**🗂️ [Supported formats](#formats)**<br><sub>JPG, PNG, WebP and more</sub>
+
+</td>
+<td width="33%" valign="top">
+
+**🧱 [Tech stack](#tech-stack)**<br><sub>React, Vite and plain CSS</sub>
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+**📁 [Project structure](#project-structure)**<br><sub>Where things live</sub>
+
+</td>
+<td width="33%" valign="top">
+
+**🌍 [Deployment](#deployment)**<br><sub>Ship the static build</sub>
+
+</td>
+<td width="33%" valign="top">
+
+**🛠️ [Troubleshooting](#troubleshooting)**<br><sub>Common fixes</sub>
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+**⚠️ [Known limits](#known-limits)**<br><sub>Honest notes</sub>
+
+</td>
+<td width="33%" valign="top">
+
+**❓ [FAQ](#faq)**<br><sub>Quick answers</sub>
+
+</td>
+<td width="33%" valign="top">
+
+**🤝 [Contributing](#contributing)**<br><sub>Get involved</sub>
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+**📄 [License](#license)**<br><sub>Terms of use</sub>
+
+</td>
+</tr>
+</table>
+
+<div align="right"><a href="#top"><sub>↑ Back to top</sub></a></div>
+
+<p align="center"><img src="assets/svg/divider.svg" alt="" width="100%"></p>
+
+
+<a id="overview"></a>
+<h2 align="center"><img src="assets/svg/section-overview.svg" alt="Overview" width="100%"></h2>
 
 Images carry more than pixels. A single photo can include the camera and lens, the exact GPS position where it was taken, capture dates, author names, an embedded thumbnail, and for AI-generated images the full prompt and workflow. **AI MetaWipe** shows you all of it, then lets you remove, edit or verify it before you share the picture.
 
@@ -59,13 +138,21 @@ Images carry more than pixels. A single photo can include the camera and lens, t
 - 🤖 **Ask the AI agent.** Plain-language explanations and suggested clean-ups that only run when you approve them.
 - 🔒 **Local first.** No server receives your images. Only the optional AI Agent contacts an outside service, and it never receives pixels.
 
----
 
-## 🖼️ Screenshots
+<p align="center"><img src="assets/svg/metadata-scan.svg" alt="Illustration of metadata fields being redacted and the privacy score rising" width="560"><br><sub><i>Illustration: metadata is redacted and the privacy score rises. Your own results appear in the app.</i></sub></p>
 
-All screenshots were captured from the running application (version 3.0.0).
+<div align="right"><a href="#top"><sub>↑ Back to top</sub></a></div>
 
-### 🏠 Dashboard
+<p align="center"><img src="assets/svg/divider.svg" alt="" width="100%"></p>
+
+
+<a id="screenshots"></a>
+<h2 align="center"><img src="assets/svg/section-screenshots.svg" alt="Screenshots" width="100%"></h2>
+
+> [!NOTE]
+> All screenshots were captured from the running application (version 3.0.0).
+
+<h3 align="center"><img src="assets/svg/sub-dashboard.svg" alt="Dashboard" width="100%"></h3>
 
 The Overview page has 19 sections, with a footer on every page. Numbers such as loaded images, GPS counts and privacy scores come from your actual workspace.
 
@@ -170,7 +257,7 @@ The Overview page has 19 sections, with a footer on every page. Numbers such as 
 </table>
 
 
-### 🧰 Tools directory and themes
+<h3 align="center"><img src="assets/svg/sub-themes.svg" alt="Tools directory and themes" width="100%"></h3>
 
 Search and filter all 12 tools. AI MetaWipe ships with a dark theme (default) and a light theme, and can follow your device setting.
 
@@ -181,9 +268,9 @@ Search and filter all 12 tools. AI MetaWipe ships with a dark theme (default) an
 </p>
 
 
-### 📚 Workspace
+<h3 align="center"><img src="assets/svg/sub-workspace.svg" alt="Workspace" width="100%"></h3>
 
-#### 01 · Media Library
+<h4><img src="assets/svg/tool-01-media-library.svg" alt="01 Media Library" height="40"></h4>
 
 Import images or whole folders, preview thumbnails, see privacy scores and manage your workspace.
 
@@ -194,9 +281,9 @@ Import images or whole folders, preview thumbnails, see privacy scores and manag
 </p>
 
 
-### 🔍 Analyze
+<h3 align="center"><img src="assets/svg/sub-analyze.svg" alt="Analyze" width="100%"></h3>
 
-#### 02 · Metadata Viewer
+<h4><img src="assets/svg/tool-02-metadata-viewer.svg" alt="02 Metadata Viewer" height="40"></h4>
 
 Properties, EXIF, GPS, IPTC and XMP, PNG text chunks and a technical inspector. Everything can be exported as TXT or JSON.
 
@@ -217,7 +304,7 @@ Properties, EXIF, GPS, IPTC and XMP, PNG text chunks and a technical inspector. 
 </p>
 
 
-#### 03 · Compare Images
+<h4><img src="assets/svg/tool-03-compare-images.svg" alt="03 Compare Images" height="40"></h4>
 
 Put two images side by side, highlight what differs and see which fields exist in only one of them.
 
@@ -228,9 +315,9 @@ Put two images side by side, highlight what differs and see which fields exist i
 </p>
 
 
-### 🧹 Clean and Edit
+<h3 align="center"><img src="assets/svg/sub-clean.svg" alt="Clean and Edit" width="100%"></h3>
 
-#### 04 · Remove Metadata
+<h4><img src="assets/svg/tool-04-remove-metadata.svg" alt="04 Remove Metadata" height="40"></h4>
 
 Choose exactly what to remove: EXIF, GPS only, thumbnail, IPTC, XMP, PNG text, C2PA, comments and more. Work on one image or the whole batch and download a ZIP. Pixels are never touched in the default method.
 
@@ -241,7 +328,7 @@ Choose exactly what to remove: EXIF, GPS only, thumbnail, IPTC, XMP, PNG text, C
 </p>
 
 
-#### 05 · Metadata Editor
+<h4><img src="assets/svg/tool-05-metadata-editor.svg" alt="05 Metadata Editor" height="40"></h4>
 
 Write title, author, copyright, description, keywords, a creation date and custom fields. Save the combination as a reusable template.
 
@@ -252,9 +339,9 @@ Write title, author, copyright, description, keywords, a creation date and custo
 </p>
 
 
-### 🎨 Optimize
+<h3 align="center"><img src="assets/svg/sub-optimize.svg" alt="Optimize" width="100%"></h3>
 
-#### 06 · Compress, Convert and Resize
+<h4><img src="assets/svg/tool-06-compress-convert-resize.svg" alt="06 Compress, Convert and Resize" height="40"></h4>
 
 PNG compression with quality levels, PNG to JPG, JPG to PNG, WebP conversion and resizing. Every output file is free of metadata.
 
@@ -275,7 +362,7 @@ PNG compression with quality levels, PNG to JPG, JPG to PNG, WebP conversion and
 </p>
 
 
-#### 07 · Crop Studio
+<h4><img src="assets/svg/tool-07-crop-studio.svg" alt="07 Crop Studio" height="40"></h4>
 
 Drag on the picture to select an area, use aspect presets or type exact pixel values.
 
@@ -286,7 +373,7 @@ Drag on the picture to select an area, use aspect presets or type exact pixel va
 </p>
 
 
-#### 08 · Background and Alpha
+<h4><img src="assets/svg/tool-08-background-alpha.svg" alt="08 Background and Alpha" height="40"></h4>
 
 Make a plain background transparent and verify real transparency pixel by pixel.
 
@@ -302,7 +389,7 @@ Make a plain background transparent and verify real transparency pixel by pixel.
 </p>
 
 
-#### 09 · Color Palette
+<h4><img src="assets/svg/tool-09-color-palette.svg" alt="09 Color Palette" height="40"></h4>
 
 Extract the dominant colours with HEX values, then copy them as CSS variables or download a JSON palette.
 
@@ -323,7 +410,7 @@ Extract the dominant colours with HEX values, then copy them as CSS variables or
 </table>
 
 
-#### 10 · Duplicate Finder
+<h4><img src="assets/svg/tool-10-duplicate-finder.svg" alt="10 Duplicate Finder" height="40"></h4>
 
 Finds identical files and near-identical pictures, shows them side by side and lets you take the extras out of the workspace list.
 
@@ -334,9 +421,9 @@ Finds identical files and near-identical pictures, shows them side by side and l
 </p>
 
 
-### 🛡️ Privacy and Security
+<h3 align="center"><img src="assets/svg/sub-privacy.svg" alt="Privacy and Security" width="100%"></h3>
 
-#### 11 · Privacy Center
+<h4><img src="assets/svg/tool-11-privacy-center.svg" alt="11 Privacy Center" height="40"></h4>
 
 Risk analysis, an estimated privacy score, GPS alerts, a hidden data scan, a thumbnail scan and a "Sanitize and verify" action with before and after proof, a pixel comparison and an integrity checklist.
 
@@ -357,9 +444,9 @@ Risk analysis, an estimated privacy score, GPS alerts, a hidden data scan, a thu
 </table>
 
 
-### 🤖 AI Intelligence
+<h3 align="center"><img src="assets/svg/sub-ai.svg" alt="AI Intelligence" width="100%"></h3>
 
-#### 12 · AI Metadata Agent
+<h4><img src="assets/svg/tool-12-ai-agent.svg" alt="12 AI Metadata Agent" height="40"></h4>
 
 Ask questions about the images you loaded, understand what hidden information means, get privacy advice and receive suggested clean-up actions. **Nothing runs until you approve it.**
 
@@ -380,7 +467,7 @@ Ask questions about the images you loaded, understand what hidden information me
 </p>
 
 
-### 🧭 Workflows, documentation and settings
+<h3 align="center"><img src="assets/svg/sub-workflows.svg" alt="Workflows, documentation and settings" width="100%"></h3>
 
 
 <p align="center">
@@ -419,9 +506,15 @@ Ask questions about the images you loaded, understand what hidden information me
 </details>
 
 
----
+<div align="right"><a href="#top"><sub>↑ Back to top</sub></a></div>
 
-## 🚀 Features
+<p align="center"><img src="assets/svg/divider.svg" alt="" width="100%"></p>
+
+
+<a id="features"></a>
+<h2 align="center"><img src="assets/svg/section-features.svg" alt="Features" width="100%"></h2>
+
+<p align="center"><img src="assets/svg/tools-grid.svg" alt="The 12 AI MetaWipe tools grouped by category" width="100%"><br><sub><i>The twelve tools, grouped by category.</i></sub></p>
 
 | # | Tool | What it does |
 | :-: | --- | --- |
@@ -440,11 +533,16 @@ Ask questions about the images you loaded, understand what hidden information me
 
 **Interface:** top bar, collapsible sidebar, tools directory with search and filters, guided workflows, help center, toast messages, confirmation dialogs, real progress bars, keyboard accessibility and reduced-motion support.
 
----
+<div align="right"><a href="#top"><sub>↑ Back to top</sub></a></div>
 
-## ⚡ Quick start
+<p align="center"><img src="assets/svg/divider.svg" alt="" width="100%"></p>
 
-**Requirements:** [Node.js](https://nodejs.org) 18 or newer.
+
+<a id="quick-start"></a>
+<h2 align="center"><img src="assets/svg/section-quick-start.svg" alt="Quick start" width="100%"></h2>
+
+> [!NOTE]
+> **Requirements:** [Node.js](https://nodejs.org) 18 or newer.
 
 ```bash
 # 1. clone the repository
@@ -466,9 +564,15 @@ Open the address shown in the terminal, usually `http://localhost:5173`.
 | `npm run build` | Create a production build in `dist/` |
 | `npm run preview` | Preview the production build locally |
 
----
+<div align="right"><a href="#top"><sub>↑ Back to top</sub></a></div>
 
-## 🧭 How to use it
+<p align="center"><img src="assets/svg/divider.svg" alt="" width="100%"></p>
+
+
+<a id="how-to-use"></a>
+<h2 align="center"><img src="assets/svg/section-how-to-use.svg" alt="How to use it" width="100%"></h2>
+
+<p align="center"><img src="assets/svg/how-it-works.svg" alt="Four steps: import, inspect, clean or edit, verify and download" width="100%"></p>
 
 1. **Add images.** Drop images or a folder on the Overview page, or open the **Media Library**.
 2. **Select a file.** Click an image. Every tool works on the selected image.
@@ -476,11 +580,16 @@ Open the address shown in the terminal, usually `http://localhost:5173`.
 4. **Choose a tool.** Clean, edit, compare or optimize.
 5. **Download the result.** Single files, or a ZIP for batches. Your originals are never changed, and results are named with `-clean`, `-edited` or a similar suffix.
 
-**Verify a clean.** Open the **Privacy Center** and press **Sanitize and verify**. It re-reads the new file and shows the privacy score before and after, whether the pixels are identical, and whether each removed category is really gone.
+> [!TIP]
+> **Verify a clean.** Open the **Privacy Center** and press **Sanitize and verify**. It re-reads the new file and shows the privacy score before and after, whether the pixels are identical, and whether each removed category is really gone.
 
----
+<div align="right"><a href="#top"><sub>↑ Back to top</sub></a></div>
 
-## 🤖 AI Agent setup
+<p align="center"><img src="assets/svg/divider.svg" alt="" width="100%"></p>
+
+
+<a id="ai-agent-setup"></a>
+<h2 align="center"><img src="assets/svg/section-ai-agent.svg" alt="AI Agent setup" width="100%"></h2>
 
 The agent is optional. Every other tool works without it and without any key. It uses the **Pollinations** OpenAI-compatible chat endpoint.
 
@@ -491,11 +600,18 @@ The agent is optional. Every other tool works without it and without any key. It
 
 **Approve before apply.** When the agent recommends cleaning, it shows buttons such as **Remove GPS**. Pressing one opens **Remove Metadata** with those options already ticked. Nothing runs until you press **Clean now**.
 
+> [!WARNING]
 > The key is stored only in your browser. Anything stored by a browser app can be inspected, so use a key you can revoke.
 
----
+<div align="right"><a href="#top"><sub>↑ Back to top</sub></a></div>
 
-## 🔒 Privacy and data flow
+<p align="center"><img src="assets/svg/divider.svg" alt="" width="100%"></p>
+
+
+<a id="privacy"></a>
+<h2 align="center"><img src="assets/svg/section-privacy.svg" alt="Privacy and data flow" width="100%"></h2>
+
+<p align="center"><img src="assets/svg/privacy-flow.svg" alt="Processing stays on your device. Only AI Agent text goes to Pollinations. Pixels are never sent." width="100%"></p>
 
 | Feature | Leaves your device? |
 | --- | --- |
@@ -504,11 +620,18 @@ The agent is optional. Every other tool works without it and without any key. It
 | AI Agent, "Also share field values" | Off by default. When enabled, camera names, coordinates, prompts and text values are included as well. |
 | Web font (Bricolage Grotesque) | Loaded from Google Fonts when online. A system font is used offline. |
 
-There is no application backend. Nothing is stored after you close the tab, apart from templates, theme and agent settings that you save in your own browser.
+> [!TIP]
+> There is no application backend. Nothing is stored after you close the tab, apart from templates, theme and agent settings that you save in your own browser.
 
----
+<div align="right"><a href="#top"><sub>↑ Back to top</sub></a></div>
 
-## 🗂️ Supported formats
+<p align="center"><img src="assets/svg/divider.svg" alt="" width="100%"></p>
+
+
+<a id="formats"></a>
+<h2 align="center"><img src="assets/svg/section-formats.svg" alt="Supported formats" width="100%"></h2>
+
+<p align="center"><img src="assets/svg/formats.svg" alt="What JPEG, PNG, WebP and other formats support" width="100%"></p>
 
 | Format | Inspect metadata | Remove (lossless) | Write metadata | Notes |
 | --- | --- | --- | --- | --- |
@@ -517,9 +640,15 @@ There is no application backend. Nothing is stored after you close the tab, apar
 | **WebP** | EXIF, XMP, ICC, C2PA, size | ✅ | Converted to PNG first | Animated WebP keeps its animation when only cleaned. |
 | **GIF, BMP, AVIF, ICO and other browser-readable formats** | Dimensions only | Converted to PNG, JPG or WebP | Converted to PNG first | Animated GIFs keep only the first frame. HEIC and TIFF work only if your browser can decode them. |
 
----
+<div align="right"><a href="#top"><sub>↑ Back to top</sub></a></div>
 
-## 🧱 Tech stack
+<p align="center"><img src="assets/svg/divider.svg" alt="" width="100%"></p>
+
+
+<a id="tech-stack"></a>
+<h2 align="center"><img src="assets/svg/section-tech-stack.svg" alt="Tech stack" width="100%"></h2>
+
+<p align="center"><img src="assets/svg/tech-stack.svg" alt="React 18, Vite 5, plain CSS, Canvas, Web Crypto and no extra dependencies" width="100%"></p>
 
 - **React 18** and **JSX**
 - **Vite 5**
@@ -528,9 +657,13 @@ There is no application backend. Nothing is stored after you close the tab, apar
 
 Only `react` and `react-dom` are used at runtime. The metadata parser, metadata writer and ZIP creator are written from scratch.
 
----
+<div align="right"><a href="#top"><sub>↑ Back to top</sub></a></div>
 
-## 📁 Project structure
+<p align="center"><img src="assets/svg/divider.svg" alt="" width="100%"></p>
+
+
+<a id="project-structure"></a>
+<h2 align="center"><img src="assets/svg/section-structure.svg" alt="Project structure" width="100%"></h2>
 
 ```text
 AI-MetaWipe
@@ -562,9 +695,13 @@ AI-MetaWipe
         └── zip.js              small ZIP writer
 ```
 
----
+<div align="right"><a href="#top"><sub>↑ Back to top</sub></a></div>
 
-## 🌍 Deployment
+<p align="center"><img src="assets/svg/divider.svg" alt="" width="100%"></p>
+
+
+<a id="deployment"></a>
+<h2 align="center"><img src="assets/svg/section-deployment.svg" alt="Deployment" width="100%"></h2>
 
 ```bash
 npm run build
@@ -576,9 +713,13 @@ This creates a static `dist/` folder that any static host can serve.
 - **Vercel:** run `npx vercel` and accept the defaults.
 - **GitHub Pages:** set `base: '/AI-MetaWipe/'` in `vite.config.js`, rebuild and publish `dist`.
 
----
+<div align="right"><a href="#top"><sub>↑ Back to top</sub></a></div>
 
-## 🛠️ Troubleshooting
+<p align="center"><img src="assets/svg/divider.svg" alt="" width="100%"></p>
+
+
+<a id="troubleshooting"></a>
+<h2 align="center"><img src="assets/svg/section-troubleshooting.svg" alt="Troubleshooting" width="100%"></h2>
 
 | Problem | Fix |
 | --- | --- |
@@ -591,9 +732,16 @@ This creates a static `dist/` folder that any static host can serve.
 | Background removal cuts into the subject | Lower the tolerance. It is built for plain backgrounds. |
 | Images in this README do not show | Make sure the `assets/` folder was pushed together with `README.md`. |
 
----
+<div align="right"><a href="#top"><sub>↑ Back to top</sub></a></div>
 
-## ⚠️ Known limits
+<p align="center"><img src="assets/svg/divider.svg" alt="" width="100%"></p>
+
+
+<a id="known-limits"></a>
+<h2 align="center"><img src="assets/svg/section-limits.svg" alt="Known limits" width="100%"></h2>
+
+> [!IMPORTANT]
+> AI MetaWipe removes **metadata only**. Invisible pixel watermarks such as SynthID are not metadata and are not removed.
 
 - **Metadata only.** Invisible watermarks written into the pixels (for example SynthID) are not metadata and are not removed.
 - **Editing replaces existing metadata.** Writing new fields removes the old ones first, including GPS.
@@ -603,9 +751,13 @@ This creates a static `dist/` folder that any static host can serve.
 - **Very large batches** depend on your device memory.
 - The **privacy score** is an estimate, not a guarantee.
 
----
+<div align="right"><a href="#top"><sub>↑ Back to top</sub></a></div>
 
-## ❓ FAQ
+<p align="center"><img src="assets/svg/divider.svg" alt="" width="100%"></p>
+
+
+<a id="faq"></a>
+<h2 align="center"><img src="assets/svg/section-faq.svg" alt="FAQ" width="100%"></h2>
 
 <details>
 <summary><b>Are my images uploaded anywhere?</b></summary>
@@ -655,22 +807,19 @@ No. Every result is a new download with a suffix such as <code>-clean</code> or 
 No. Watermarks such as SynthID live in the pixels, not in metadata.
 </details>
 
----
+<div align="right"><a href="#top"><sub>↑ Back to top</sub></a></div>
 
-## 🤝 Contributing
+<p align="center"><img src="assets/svg/divider.svg" alt="" width="100%"></p>
+
+
+<a id="contributing"></a>
+<h2 align="center"><img src="assets/svg/section-contributing.svg" alt="Contributing" width="100%"></h2>
 
 Issues and pull requests are welcome at [github.com/MUdevelops/AI-MetaWipe](https://github.com/MUdevelops/AI-MetaWipe/issues). Please keep changes local-first: no backend, no uploading of user images, and no fake statistics or placeholder features.
 
-## 📄 License
+<a id="license"></a>
+<h2 align="center"><img src="assets/svg/section-license.svg" alt="License" width="100%"></h2>
 
 See the `LICENSE` file in the repository root.
 
----
-
-<div align="center">
-
-### 🧼 AI MetaWipe
-
-**View. Clean. Edit. Optimize. Share Safely.**
-
-</div>
+<p align="center"><img src="assets/svg/footer.svg" alt="AI MetaWipe: View. Clean. Edit. Optimize. Share Safely." width="100%"></p>

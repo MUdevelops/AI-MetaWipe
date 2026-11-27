@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="64" viewBox="0 0 1000 64" role="img" aria-labelledby="t d" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">
+<title id="t">Clean and Edit</title><desc id="d">Clean and Edit</desc>
+<defs><linearGradient id="ac" x1="0" y1="0" x2="1" y2="1" ><stop offset="0" stop-color="#FB7185"/><stop offset="1" stop-color="#FBBF24"/></linearGradient><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1" ><stop offset="0" stop-color="#0D1524"/><stop offset="1" stop-color="#121E30"/></linearGradient><radialGradient id="gl"><stop offset="0" stop-color="#FB7185" stop-opacity="0.28"/><stop offset="1" stop-color="#FB7185" stop-opacity="0"/></radialGradient><clipPath id="cl"><rect width="1000" height="64" rx="14"/></clipPath><linearGradient id="sh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".1"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<style>
+.tb{transform-box:fill-box;transform-origin:center}.tl{transform-box:fill-box;transform-origin:left center}
+.draw{stroke-dasharray:1;stroke-dashoffset:0;animation:draw 5.5s ease-in-out infinite}
+@keyframes draw{0%{stroke-dashoffset:1}26%{stroke-dashoffset:0}86%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+.ring{animation:ring 2.8s ease-out infinite}
+@keyframes ring{0%{transform:scale(.8);opacity:.6}100%{transform:scale(1.55);opacity:0}}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.3;transform:scale(.8)}50%{opacity:1;transform:scale(1)}}
+.float{animation:floaty 4s ease-in-out infinite}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.grow{animation:grow 3.6s ease-in-out infinite}
+@keyframes grow{0%,100%{transform:scaleX(.2)}50%{transform:scaleX(1)}}
+.sweep{animation:sweep 6s linear infinite}
+@keyframes sweep{0%{transform:translateX(-300px)}100%{transform:translateX(1100px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#cl)"><rect width="1000" height="64" fill="url(#bg)"/><circle cx="36" cy="32" r="90" fill="url(#gl)"/><rect class="sweep" width="200" height="64" fill="url(#sh)" transform="skewX(-18)"/><rect class="tl grow" x="700" y="26" width="34" height="12" rx="4" fill="#FB7185" opacity=".85" style="animation-delay:0.0s"/><rect class="tl grow" x="746" y="32" width="34" height="6" rx="4" fill="#FBBF24" opacity=".85" style="animation-delay:0.3s"/><rect class="tl grow" x="792" y="26" width="34" height="12" rx="4" fill="#FB7185" opacity=".85" style="animation-delay:0.6s"/><rect class="tl grow" x="838" y="32" width="34" height="6" rx="4" fill="#FBBF24" opacity=".85" style="animation-delay:0.8999999999999999s"/><rect class="tl grow" x="884" y="26" width="34" height="12" rx="4" fill="#FB7185" opacity=".85" style="animation-delay:1.2s"/><rect class="tl grow" x="930" y="32" width="34" height="6" rx="4" fill="#FBBF24" opacity=".85" style="animation-delay:1.5s"/></g><rect x=".75" y=".75" width="998.5" height="62.5" rx="13.5" fill="none" stroke="url(#ac)" stroke-width="1.4" opacity=".7"/><circle class="tb ring" cx="36" cy="32" r="20" fill="none" stroke="#FB7185" stroke-width="1.6"/><circle cx="36" cy="32" r="20" fill="#FB7185" fill-opacity=".15" stroke="#FB7185" stroke-opacity=".5"/><g transform="translate(25.0,21.0) scale(0.9166666666666666)" fill="none" stroke="#F8FAFC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path class="draw" pathLength="1" style="animation-delay:0s" d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13M10 11v6M14 11v6"/></g><text x="72" y="40" font-size="23" font-weight="800" fill="#F8FAFC">Clean and Edit</text>
+</svg>
